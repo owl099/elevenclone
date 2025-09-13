@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #fffdffda;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    margin-top: 6.2rem;
+
+}
+.herocontent{
+    width: 80%;
+    height: 31vh;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column;  */
+    
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    /* justify-items: 3fr center; */
+    /* justify-content: center; */
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* gap: 0.25rem  ; */
+}
+.herocontent .heading{
+    max-width: 80vw;
+    
+     
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+    
+    /* margin-bottom: 2rem; */
+    letter-spacing: -0.003em;
+}   
+
+.para{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    max-width: 80%;
+    /* line-height: 1.75rem; */
+    
+    /* display: flex;
+    align-items: center; */
+    white-space:pre-wrap;
+    margin-left: auto;  
+    margin-right: auto; 
+    /* max-width: 60%; */
+}
+
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    height: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.btn1{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        border-radius: 99999px;
+        height: 2.5rem;
+        width: 5.5rem;
+        cursor: pointer;
+        padding: 11px 11px;
+        white-space: nowrap;
+         font-size: 14px;
+        font-family: inter;
+        font-weight: 560;
+        text-align: center;
+        /* padding: 10px 10px; */
+    }
+
+    .btn1:hover{
+        background-color: rgba(52, 51, 54, 0.797);
+        border-radius: 99999px;
+        cursor: pointer;
+        /* height: 28px; */
+    }
+    .btn2{
+        cursor: pointer;
+        width: auto ;
+        height: 2.5rem;
+        background-color: rgba(231, 230, 230, 0.63);
+        border-radius: 99999px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 560;
+        padding: 11px 11px;
+        /* text-align: center;
+         */
+
+         display: flex;
+         align-items: center;
+    }
+
+    .btn2:hover{
+        background-color: rgba(237, 240, 245, 0.805);
+        border-radius: 15px;
+        cursor: pointer;
+        /* height: 2.5rem; */
+    }
