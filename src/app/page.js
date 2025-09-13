@@ -1,6 +1,6 @@
 import Header from '@/component/header'
 import './page.css'
-import TextEditor from '@/component/TextEditor';
+import TextEditor from '@/component/texteditor';
 
 export default function Home() {
   return (
