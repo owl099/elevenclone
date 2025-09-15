@@ -39,7 +39,7 @@ const TextEditor = () => {
         }
 
         try {
-            const response = await fetch(`https://elevenclonebackend.vercel.app/api/audio?lang=${language.toLowerCase()}`);
+            const response = await fetch(`https://elevenclonebackend-rm2m.vercel.app//api/audio?lang=${language.toLowerCase()}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch audio URL');
             }
